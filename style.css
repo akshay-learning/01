@@ -1,0 +1,80 @@
+/* General Reset */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(to right, #141e30, #243b55);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    background: #00d4ff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Product Cards */
+.products {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.card {
+    width: 280px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Footer */
+footer {
+    background: #141e30;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
